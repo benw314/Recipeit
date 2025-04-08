@@ -1,0 +1,74 @@
+.App {
+  position: fixed;
+  background-color: #2f7554;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  padding: 0 1rem;
+  height: 75px;
+
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  gap: 16px; /* Add gap between boxes */
+}
+
+.ingredient-input,
+.description-input {
+  width: 100%; /* Set the width to 100% to make the input boxes fill the available space horizontally */
+  height: 500px; /* Set the height to your desired value */
+  padding: 12px; /* Increase padding for better spacing */
+  border: 1px solid gray;
+}
+
+.recipe {
+  width: 600px; /* Set the width of each box to 200 pixels */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 1.5rem; /* Maintain padding for other sides */
+  padding-top: 0rem; /* Reduce only the top padding */
+  padding-left: 0.5rem;
+  box-sizing: border-box; /* Include border and padding in the box size */
+  margin-bottom: 20px; /* Add margin to create space between each row */
+}
+
+.update{
+  border: border;
+  padding: 3px 6px;
+  margin-right: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  color: rgb(242, 100, 100);
+}
+
+.delete{
+  border: border;
+  padding: 3px 6px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  color: rgb(139, 139, 234);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input{
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.formButton{
+  border: none;
+  padding: 10px;
+  background-color: rgb(111, 150, 100);
+  color: white;
+  cursor: pointer;
+}

@@ -20,8 +20,7 @@ different attributes such as composite attributes and multivalued
 attributes as well as participation constraints between various
 entities.
 
-![](./media/media/image10.png){width="6.088542213473316in"
-height="5.430029527559055in"}
+![](./media/media/image10.png)
 
 **Application Program Design**
 
@@ -123,7 +122,7 @@ most dishes with that location (country)
 
 **Logical Database Design**
 
-![](./media/media/image9.png){width="6.5in" height="2.375in"}
+![](./media/media/image9.png)
 
 **Table of Data Types**
 
@@ -164,40 +163,33 @@ Link]{.underline}](https://dev.mysql.com/downloads/file/?id=526407)
 
 Make sure when creating the root user, your password will look like
 this:\
-![](./media/media/image11.png){width="3.5104166666666665in"
-height="0.8125in"}\
+![](./media/media/image11.png)\
 When creating a new database, it should look like this:\
-![](./media/media/image3.png){width="6.5in"
-height="2.7916666666666665in"}
+![](./media/media/image3.png)
 
 Make sure to fill out as following:\
-![](./media/media/image2.png){width="6.5in"
-height="2.8194444444444446in"}
+![](./media/media/image2.png)
 
 Then, download the zip folder and unzip the files. In the Navigation
 menu when you open up your newly created database, there is an
 administration tab here:
 
-![](./media/media/image4.png){width="2.0625in"
-height="5.463542213473316in"}\
+![](./media/media/image4.png)\
 Click on it, and click data import/restore. This screen will show up:\
-![](./media/media/image6.png){width="6.5in"
-height="2.986111111111111in"}\
+![](./media/media/image6.png)\
 \
 Click Import from self-contained file, browse where it is, and then
 click start import.
 
 You should then see the database populated with the recipes table and
 the basic two entries I included:\
-![](./media/media/image5.png){width="6.5in"
-height="2.1554155730533684in"}
+![](./media/media/image5.png)
 
 Next, open up 2 windows of Windows Powershell. Navigate to where the
 client and server folders are in the Recipeit folder. Before running
 anything, install Node.js here:
 [[Node.js]{.underline}](https://nodejs.org/en)\
-![](./media/media/image7.png){width="6.5in"
-height="2.630125765529309in"}
+![](./media/media/image7.png)
 
 In the client directory of Recipiet, run: npm install. This will
 download dependencies in the package.json file in the client directory.
@@ -212,8 +204,7 @@ npm run start. It will prompt you if you want to use a different port,
 type 'y' for yes and enter. It will then open up a browser window with
 the 2 entries I provided.
 
-![](./media/media/image1.png){width="6.5in"
-height="2.4427088801399823in"}
+![](./media/media/image1.png)
 
 There are a couple functions for you, you can update a recipe, delete
 one of the existing recipes (there is no undo, careful!), and add a new
@@ -223,8 +214,7 @@ recipe.
 
 The update function starts when you click the update button. Here is the
 screen for that:\
-![](./media/media/image12.png){width="2.5145647419072614in"
-height="3.279866579177603in"}\
+![](./media/media/image12.png)\
 It will automatically fill what the entry is already, and you can edit
 how you wish. Empty fields work as well.
 
@@ -233,7 +223,5 @@ how you wish. Empty fields work as well.
 The update function starts when you click the update button. Here is the
 screen for that:
 
-![](./media/media/image8.png){width="2.6055074365704285in"
-height="3.2978805774278217in"}
-
+![](./media/media/image8.png)
 The entry is sent and updated in the database you created immediately.

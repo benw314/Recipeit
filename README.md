@@ -159,7 +159,7 @@ For this program, you will need MySql and a number of libraries to
 interact with the server and client. Below is the link to download
 MySql:\
 [[MySql Download
-Link]{.underline}](https://dev.mysql.com/downloads/file/?id=526407)
+Link]](https://dev.mysql.com/downloads/file/?id=526407)
 
 Make sure when creating the root user, your password will look like
 this:\
@@ -188,7 +188,7 @@ the basic two entries I included:\
 Next, open up 2 windows of Windows Powershell. Navigate to where the
 client and server folders are in the Recipeit folder. Before running
 anything, install Node.js here:
-[[Node.js]{.underline}](https://nodejs.org/en)\
+[[Node.js]](https://nodejs.org/en)\
 ![](./media/media/image7.png)
 
 In the client directory of Recipiet, run: npm install. This will
